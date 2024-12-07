@@ -39,13 +39,13 @@ p{
 
 .image-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Adjust size */
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr)); /* Adjust size */
     gap: 10px; /* Spacing between images */
 }
 
 .square {
-    width: 50px; /* Set the size of the square */
-    height: 50px; /* Ensure it's a square */
+    width: 30px; /* Set the size of the square */
+    height: 30px; /* Ensure it's a square */
     overflow: hidden; /* Crop any overflow if necessary */
     display: flex;
     justify-content: center;
