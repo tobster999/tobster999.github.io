@@ -37,6 +37,23 @@ p{
     line-height: 1.6;
 }
 
+.square {
+    width: 200px; /* Set the size of the square */
+    height: 200px; /* Ensure it's a square */
+    overflow: hidden; /* Crop any overflow if necessary */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Optional: background color for empty space */
+}
+
+.square img {
+    width: 100%; /* Scale the image proportionally */
+    height: 100%; /* Scale the image proportionally */
+    object-fit: contain; /* Ensure the image fits inside the square */
+}
+
+
 .footer {
     position: fixed;
     bottom: 0;
