@@ -21,13 +21,13 @@ h1{
     font-family: 'SF Distant Galaxy', 'News Gothic', Arial, sans-serif;
     color: #FFCC00; 
     text-shadow: 4px 4px black;
-    font-size: 400%;
+    font-size: 600%;
     font-weight: bold;
 }
 
 p{
     font-family: 'SF Distant Galaxy', 'News Gothic', Arial, sans-serif;
-    font-size: 150%;
+    font-size: 200%;
     font-weight: bold;
     color: #FFCC00; 
     text-align: center;
@@ -74,7 +74,7 @@ p{
     padding: 5px;
     color: #FFCC00;
     font-family: 'SF Distant Galaxy', 'News Gothic', Arial, sans-serif;
-    font-size: 18px;
+    font-size: 200%;
 }
 
 
