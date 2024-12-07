@@ -45,8 +45,8 @@ p{
 }     
 
 .square {
-    width: 80px;
-    height: 80px;
+    width: 180px;
+    height: 180px;
     overflow: hidden; /* Crop any overflow if necessary */
     display: flex;
     justify-content: center;
