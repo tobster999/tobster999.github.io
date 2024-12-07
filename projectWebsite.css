@@ -44,7 +44,6 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f0f0f0; /* Optional: background color for empty space */
 }
 
 .square img {
