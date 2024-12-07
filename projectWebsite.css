@@ -37,6 +37,12 @@ p{
     line-height: 1.6;
 }
 
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Adjust size */
+    gap: 10px; /* Spacing between images */
+}
+
 .square {
     width: 50px; /* Set the size of the square */
     height: 50px; /* Ensure it's a square */
@@ -68,12 +74,6 @@ p{
     color: #FFCC00;
     font-family: 'SF Distant Galaxy', 'News Gothic', Arial, sans-serif;
     font-size: 18px;
-}
-
-.image-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Adjust size */
-    gap: 10px; /* Spacing between images */
 }
 
 
