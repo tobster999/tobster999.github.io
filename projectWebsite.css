@@ -70,6 +70,13 @@ p{
     font-size: 18px;
 }
 
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Adjust size */
+    gap: 10px; /* Spacing between images */
+}
+
+
 /* Custom scrollbar styles */
 ::-webkit-scrollbar {
     width: 12px; /* Width of the scrollbar */
