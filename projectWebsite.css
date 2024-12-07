@@ -38,8 +38,8 @@ p{
 }
 
 .square {
-    width: 100px; /* Set the size of the square */
-    height: 100px; /* Ensure it's a square */
+    width: 50px; /* Set the size of the square */
+    height: 50px; /* Ensure it's a square */
     overflow: hidden; /* Crop any overflow if necessary */
     display: flex;
     justify-content: center;
@@ -53,7 +53,7 @@ p{
 }
 
 .head {
-    font-size: 100pt;
+    font-size: 50pt;
 }
 
 
