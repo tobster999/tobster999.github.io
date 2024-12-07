@@ -50,6 +50,7 @@ p{
     width: 100%; /* Scale the image proportionally */
     height: 100%; /* Scale the image proportionally */
     object-fit: contain; /* Ensure the image fits inside the square */
+    display: inline-block; /* Ensures images appear side by side */
 }
 
 .head {
