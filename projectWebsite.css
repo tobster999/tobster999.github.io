@@ -45,8 +45,8 @@ p{
 }     
 
 .square {
-    width: 30px; /* Set the size of the square */
-    height: 30px; /* Ensure it's a square */
+    width: 80px;
+    height: 80px;
     overflow: hidden; /* Crop any overflow if necessary */
     display: flex;
     justify-content: center;
@@ -61,7 +61,7 @@ p{
 }
 
 .head {
-    font-size: 100pt;
+    font-size: 130pt;
 }
 
 
