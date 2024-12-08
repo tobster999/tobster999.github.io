@@ -13,7 +13,6 @@ body{
 
 h1{
     text-align: center;
-    /* border-radius: 10px; */
     display: inline block;
     width: 30%;
     margin-left: 35%;
@@ -91,8 +90,11 @@ a.button:hover{
     bottom: 0;
     left: 0;
     right: 0;
-    width: 100%;
     text-align: center;
+    display: inline block;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
     padding: 100px;
     color: #FFCC00;
     font-family: 'SF Distant Galaxy', 'News Gothic', Arial, sans-serif;
