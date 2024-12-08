@@ -61,8 +61,9 @@ p{
     display: inline-block; /* Ensures images appear side by side */
 }
 
-.head {
-    font-size: 130pt;
+.spacer {
+    grid-column: 1 / -1; /* Forces the spacer to span all columns */
+    height: 0; /* Optional: Adjust height if needed */
 }
 
 
