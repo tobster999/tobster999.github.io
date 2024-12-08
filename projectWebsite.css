@@ -39,7 +39,7 @@ p{
 
 .image-container {
     display: grid;
-    grid-template-columns: 1fr auto 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* Adjust min size for images */
     justify-content: center;                 
     gap: 10px;
 }     
@@ -71,7 +71,7 @@ p{
     left: 0;
     width: 100%;
     text-align: center;
-    padding: 5px;
+    padding: 200%;
     color: #FFCC00;
     font-family: 'SF Distant Galaxy', 'News Gothic', Arial, sans-serif;
     font-size: 200%;
@@ -80,7 +80,7 @@ p{
 
 /* Custom scrollbar styles */
 ::-webkit-scrollbar {
-    width: 30px; /* Width of the scrollbar */
+    width: 50px; /* Width of the scrollbar */
     height: 30px; /* Height for horizontal scrollbar */
 }
 
@@ -94,5 +94,5 @@ p{
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: white; /* Color when hovered */
+    background: #FFCC00; /* Color when hovered */
 }
