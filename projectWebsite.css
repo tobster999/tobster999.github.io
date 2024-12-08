@@ -36,6 +36,27 @@ p{
     line-height: 1.6;*/
 }
 
+a.button{
+    display: inline-block;
+    padding: 1px 6px;
+    border: 1px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 300%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+a.button:hover{
+    color: black;
+    background-color: #FFCC00; 
+    
+}
+
 .image-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Adjust min size for images */
