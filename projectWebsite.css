@@ -56,15 +56,15 @@ a.button:hover{
 
 .image-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Adjust min size for images */
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); /* Adjust min size for images */
     justify-content: center;                 
     gap: 10px;
     padding-bottom: 10px;
 }     
 
 .square {
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
     overflow: hidden; /* Crop any overflow if necessary */
     display: flex;
     justify-content: center;
