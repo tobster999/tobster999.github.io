@@ -54,6 +54,14 @@ a.button:hover{
     
 }
 
+.top_left {
+    width: 200px; /* Example width */
+    height: 200px; /* Example height */
+    display: flex;
+    justify-content: flex-start; /* Align text to the left */
+    align-items: flex-start; /* Align text to the top */
+}
+
 .image-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); /* Adjust min size for images */
