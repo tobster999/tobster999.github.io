@@ -15,8 +15,8 @@ h1{
     text-align: center;
     display: inline block;
     width: 30%;
-    margin-left: 35%;
-    margin-right: 35%;
+    /*margin-left: 35%;
+    margin-right: 35%;*/
     font-family: 'SF Distant Galaxy', 'News Gothic', Arial, sans-serif;
     color: #FFCC00; 
     font-size: 350%;
@@ -28,6 +28,14 @@ p{
     text-align: center;
     text-transform: uppercase;
     font-size: 100%;
+}
+
+.crawl{
+    font-family: 'SF Distant Galaxy', 'News Gothic', Arial, sans-serif;
+    color: #FFCC00; 
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 200%;
     /*letter-spacing: 1px;
     font-weight: bold;
     line-height: 1.6;*/
