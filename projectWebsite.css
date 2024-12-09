@@ -19,18 +19,17 @@ h1{
     margin-right: 35%;
     font-family: 'SF Distant Galaxy', 'News Gothic', Arial, sans-serif;
     color: #FFCC00; 
-    font-size: 300%;
-    font-weight: bold;
+    font-size: 350%;
 }
 
 p{
     font-family: 'SF Distant Galaxy', 'News Gothic', Arial, sans-serif;
-    font-weight: bold;
     color: #FFCC00; 
     text-align: center;
     text-transform: uppercase;
     font-size: 100%;
     /*letter-spacing: 1px;
+    font-weight: bold;
     line-height: 1.6;*/
 }
 
@@ -87,9 +86,9 @@ a.button:hover{
 
 .footer {
     position: fixed;
-    bottom: 0;
+    /*bottom: 0;
     left: 0;
-    right: 0;
+    right: 0;*/
     text-align: center;
     display: inline block;
     width: 30%;
@@ -98,7 +97,7 @@ a.button:hover{
     padding: 100px;
     color: #FFCC00;
     font-family: 'SF Distant Galaxy', 'News Gothic', Arial, sans-serif;
-    font-size: 100%;
+    font-size: 150%;
 }
 
 
