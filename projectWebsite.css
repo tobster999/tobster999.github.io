@@ -58,8 +58,8 @@ a.button:hover{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); /* Adjust min size for images */
     justify-content: center;                 
-    gap: 10px;
-    padding-bottom: 10px;
+    gap: 8px;
+    padding-bottom: 8px;
 }     
 
 .square {
