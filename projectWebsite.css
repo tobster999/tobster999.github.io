@@ -78,7 +78,7 @@ a.button:hover{
     padding-bottom: 8px;
 }
 
-.image-container .hover-text {
+.hover-text {
     position: absolute;
     top: 50%;
     left: 50%;
