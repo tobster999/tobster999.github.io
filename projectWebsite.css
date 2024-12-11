@@ -78,7 +78,16 @@ a.button:hover{
     padding-bottom: 8px;
 }
 
-.hover-text {
+.square {
+    width: 130px;
+    height: 130px;
+    overflow: hidden; /* Crop any overflow if necessary */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square .hover-text {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -92,17 +101,8 @@ a.button:hover{
     text-align: center;
 }
 
-.image-container:hover .hover-text {
+.square:hover .hover-text {
     opacity: 1;
-}
-
-.square {
-    width: 130px;
-    height: 130px;
-    overflow: hidden; /* Crop any overflow if necessary */
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .square img {
