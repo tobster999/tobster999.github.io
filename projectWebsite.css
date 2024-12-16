@@ -137,7 +137,7 @@ a.button:hover{
 
 /* Custom scrollbar styles */
 ::-webkit-scrollbar {
-    width: 100px; /* Width of the scrollbar */
+    width: 50px; /* Width of the scrollbar */
     height: 100px; /* Height for horizontal scrollbar */
 }
 
@@ -147,7 +147,7 @@ a.button:hover{
 
 ::-webkit-scrollbar-thumb {
     background: #FFCC00; /* Color of the scrollbar thumb */
-    border-radius: 50px; /* Rounded corners for the thumb */
+    border-radius: 25px; /* Rounded corners for the thumb */
 }
 
 ::-webkit-scrollbar-thumb:hover {
