@@ -120,15 +120,15 @@ a.button:hover{
 
 .footer {
     position: fixed;
-    /*bottom: 0;
+    bottom: 0;
     left: 0;
-    right: 0;*/
-    text-align: center;
+    /*right: 0;
     display: inline block;
-    width: 30%;
     margin-left: 35%;
-    margin-right: 35%;
-    padding: 50px;
+    margin-right: 35%;*/
+    width: 100%;
+    text-align: center;
+    padding: 5px;
     color: #FFCC00;
     font-family: 'SF Distant Galaxy', 'News Gothic', Arial, sans-serif;
     font-size: 150%;
