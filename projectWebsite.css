@@ -80,7 +80,7 @@ a.button:hover{
 
 .image-container-10 {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Adjust min size for images */
+    grid-template-columns: repeat(auto-fill, minmax(95px, 1fr)); /* Adjust min size for images */
     justify-content: center;                 
     gap: 8px;
     padding-bottom: 8px;
@@ -96,8 +96,8 @@ a.button:hover{
 }
 
 .square-10 {
-    width: 100px;
-    height: 100px;
+    width: 95px;
+    height: 95px;
     overflow: hidden; /* Crop any overflow if necessary */
     display: flex;
     justify-content: center;
