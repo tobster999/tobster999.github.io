@@ -80,7 +80,7 @@ a.button:hover{
 
 .image-container-10 {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); /* Adjust min size for images */
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Adjust min size for images */
     justify-content: center;                 
     gap: 8px;
     padding-bottom: 8px;
