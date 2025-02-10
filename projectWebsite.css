@@ -96,8 +96,8 @@ a.button:hover{
 }
 
 .square-10 {
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     overflow: hidden; /* Crop any overflow if necessary */
     display: flex;
     justify-content: center;
