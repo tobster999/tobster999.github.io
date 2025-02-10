@@ -104,7 +104,7 @@ a.button:hover{
     align-items: center;
 }
 
-.square .hover-text {
+.square-10 .hover-text {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -118,7 +118,7 @@ a.button:hover{
     text-align: center;
 }
 
-.square:hover .hover-text {
+.square-10:hover .hover-text {
     opacity: 1;
 }
 
