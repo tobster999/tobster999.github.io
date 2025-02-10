@@ -129,6 +129,13 @@ a.button:hover{
     display: inline-block; /* Ensures images appear side by side */
 }
 
+.square-10 img {
+    width: 100%; /* Scale the image proportionally */
+    height: 100%; /* Scale the image proportionally */
+    object-fit: contain; /* Ensure the image fits inside the square */
+    display: inline-block; /* Ensures images appear side by side */
+}
+
 .spacer {
     grid-column: 1 / -1; /* Forces the spacer to span all columns */
     height: 0; /* Optional: Adjust height if needed */
