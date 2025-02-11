@@ -14,12 +14,12 @@ body{
 h1{
     text-align: center;
     display: inline block;
-    width: 30%;
+    width: 100%;
     /*margin-left: 35%;*/
     /*margin-right: 35%;*/
     font-family: 'SF Distant Galaxy', 'News Gothic', Arial, sans-serif;
     color: #FFCC00; 
-    font-size: 100pt;
+    font-size: 70pt;
 }
 
 p{
@@ -72,7 +72,7 @@ a.button:hover{
 
 .image-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* Adjust min size for images */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust min size for images */
     justify-content: center;                 
     gap: 8px;
     padding-bottom: 8px;
@@ -87,8 +87,8 @@ a.button:hover{
 }
 
 .square {
-    width: 220px;
-    height: 220px;
+    width: 200px;
+    height: 200px;
     overflow: hidden; /* Crop any overflow if necessary */
     display: flex;
     justify-content: center;
