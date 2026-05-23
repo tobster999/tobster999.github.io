@@ -22,6 +22,8 @@ h1{
     font-family: 'SF Distant Galaxy', 'News Gothic', Arial, sans-serif;
     color: #FFCC00; 
     font-size: 70pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* defines style of p */
