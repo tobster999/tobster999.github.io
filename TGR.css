@@ -1,27 +1,30 @@
+/* */
+/* The CSS file for ENL */
+
+/* loads in star wars font */
 @font-face {
-    font-family: 'SF Distant Galaxy';
-    src: url('SF-Distant-Galaxy.woff2') format('woff2'), 
-         url('SF-Distant-Galaxy.woff') format('woff'),
-         url('SF-Distant-Galaxy.ttf') format('ttf');
+    font-family: 'SF Distant Galaxy'; /* gives the font a name */
+    src: url('SF-Distant-Galaxy.ttf') format('ttf');  /* pulls the font file from the same directory as the CSS file */
     font-weight: normal;
     font-style: normal;
 }
 
+/* Sets the space background image for the whole webpage to the star wars stars backdrop*/
 body{
     background-image: url(images/spacey.jpg);
 }
 
+/* defines style of h1 */
 h1{
     text-align: center;
     display: inline block;
     width: 100%;
-    /*margin-left: 35%;*/
-    /*margin-right: 35%;*/
     font-family: 'SF Distant Galaxy', 'News Gothic', Arial, sans-serif;
     color: #FFCC00; 
     font-size: 70pt;
 }
 
+/* defines style of p */
 p{
     font-family: 'SF Distant Galaxy', 'News Gothic', Arial, sans-serif;
     color: #FFCC00; 
@@ -30,6 +33,7 @@ p{
     font-size: 50pt;
 }
 
+/* idk */
 .crawl{
     font-family: 'SF Distant Galaxy', 'News Gothic', Arial, sans-serif;
     color: #FFCC00; 
@@ -41,6 +45,7 @@ p{
     line-height: 1.6;*/
 }
 
+/* button */
 a.button{
     display: inline-block;
     padding: 1px 6px;
@@ -56,12 +61,14 @@ a.button{
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
+/* changes button color on hover */
 a.button:hover{
     color: black;
     background-color: white; 
     
 }
 
+/* idk */
 .top_left {
     width: 200px; /* Example width */
     height: 200px; /* Example height */
@@ -70,14 +77,35 @@ a.button:hover{
     align-items: flex-start; /* Align text to the top */
 }
 
+/* defines the grid for tierlist */
 .image-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(187px, 1fr)); /* Adjust min size for images */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust min size for images */
     justify-content: center;                 
     gap: 12px;
     padding-bottom: 12px;
 }
 
+/* defines the squares for tierlist */
+.square {
+    width: 150px;
+    height: 150px;
+    overflow: hidden; /* Crop any overflow if necessary - this is what makes it a square */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square img {
+    width: 100%; /* Scale the image proportionally */
+    height: 100%; /* Scale the image proportionally */
+    object-fit: contain; /* Ensure the image fits inside the square */
+    display: inline-block; /* Ensures images appear side by side */
+}
+
+
+
+/* defines the grid for top 10 */
 .image-container-10 {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust min size for images */
@@ -86,22 +114,21 @@ a.button:hover{
     padding-bottom: 18px;
 }
 
-.square {
-    width: 187px;
-    height: 187px;
-    overflow: hidden; /* Crop any overflow if necessary */
+/* defines the squares for top 10 */
+.square-10 {
+    width: 300px;
+    height: 300px;
+    overflow: hidden; /* Crop any overflow if necessary - this is what makes it a square */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.square-10 {
-    width: 300px;
-    height: 300px;
-    overflow: hidden; /* Crop any overflow if necessary */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.square-10 img {
+    width: 100%; /* Scale the image proportionally */
+    height: 100%; /* Scale the image proportionally */
+    object-fit: contain; /* Ensure the image fits inside the square */
+    display: inline-block; /* Ensures images appear side by side */
 }
 
 .square-10 .hover-text {
@@ -122,19 +149,7 @@ a.button:hover{
     opacity: 1;
 }
 
-.square img {
-    width: 100%; /* Scale the image proportionally */
-    height: 100%; /* Scale the image proportionally */
-    object-fit: contain; /* Ensure the image fits inside the square */
-    display: inline-block; /* Ensures images appear side by side */
-}
 
-.square-10 img {
-    width: 100%; /* Scale the image proportionally */
-    height: 100%; /* Scale the image proportionally */
-    object-fit: contain; /* Ensure the image fits inside the square */
-    display: inline-block; /* Ensures images appear side by side */
-}
 
 .spacer {
     grid-column: 1 / -1; /* Forces the spacer to span all columns */
