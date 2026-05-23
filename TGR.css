@@ -80,16 +80,15 @@ a.button:hover{
 /* defines the grid for tierlist */
 .image-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); /* Adjust min size for images */
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Adjust min size for images */
     justify-content: center;                 
-    gap: 12px;
-    padding-bottom: 12px;
+    gap: 10px; /* Space between grid items */
 }
 
 /* defines the squares for tierlist */
 .square {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     overflow: hidden; /* Crop any overflow if necessary - this is what makes it a square */
     display: flex;
     justify-content: center;
